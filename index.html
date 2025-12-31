@@ -2225,7 +2225,7 @@ var requirejs,require,define;(function(global,setTimeout){var req,s,head,baseEle
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#importación-de-librerias-revisión-independediente-de-cada-dataframe-por-separado" id="toc-importación-de-librerias-revisión-independediente-de-cada-dataframe-por-separado" class="nav-link active" data-scroll-target="#importación-de-librerias-revisión-independediente-de-cada-dataframe-por-separado"><span class="header-section-number">1</span> Importación de Librerias Revisión independediente de cada dataframe por separado</a></li>
+  <li><a href="#importación-de-librerias-revisión-independiente-de-cada-dataframe-por-separado" id="toc-importación-de-librerias-revisión-independiente-de-cada-dataframe-por-separado" class="nav-link active" data-scroll-target="#importación-de-librerias-revisión-independiente-de-cada-dataframe-por-separado"><span class="header-section-number">1</span> Importación de Librerias Revisión independiente de cada dataframe por separado</a></li>
   <li><a href="#unión-de-dataframes-y-examinación-de-calidad-de-los-datos" id="toc-unión-de-dataframes-y-examinación-de-calidad-de-los-datos" class="nav-link" data-scroll-target="#unión-de-dataframes-y-examinación-de-calidad-de-los-datos"><span class="header-section-number">2</span> Unión de Dataframes y Examinación de calidad de los Datos</a></li>
   <li><a href="#estadísticas-descriptivas" id="toc-estadísticas-descriptivas" class="nav-link" data-scroll-target="#estadísticas-descriptivas"><span class="header-section-number">3</span> Estadísticas Descriptivas</a>
   <ul class="collapse">
@@ -2278,10 +2278,10 @@ var requirejs,require,define;(function(global,setTimeout){var req,s,head,baseEle
 </header>
 
 
-<section id="importación-de-librerias-revisión-independediente-de-cada-dataframe-por-separado" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="importación-de-librerias-revisión-independediente-de-cada-dataframe-por-separado"><span class="header-section-number">1</span> Importación de Librerias Revisión independediente de cada dataframe por separado</h2>
+<section id="importación-de-librerias-revisión-independiente-de-cada-dataframe-por-separado" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="importación-de-librerias-revisión-independiente-de-cada-dataframe-por-separado"><span class="header-section-number">1</span> Importación de Librerias Revisión independiente de cada dataframe por separado</h2>
 <p>Importación de librerías, de datos y conversion a dataframes para interaccion en Python:</p>
-<div id="949176a9" class="cell" data-execution_count="1">
+<div id="9a7afe30" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -2294,7 +2294,7 @@ var requirejs,require,define;(function(global,setTimeout){var req,s,head,baseEle
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
-<div id="de3523c8" class="cell" data-execution_count="2">
+<div id="d7cf97f8" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_excel(</span>
@@ -2316,7 +2316,7 @@ var requirejs,require,define;(function(global,setTimeout){var req,s,head,baseEle
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href>Ventas</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href>Clientes</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href>Productos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href>Revendedores</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href>Pedidos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href>Territorio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href>Fechas</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div id="23840232" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="3">
+<div id="3203f9bd" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="3">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>sales_data.info()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2348,7 +2348,7 @@ memory usage: 13.9 MB</code></pre>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div id="f06e0e0a" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="4">
+<div id="b9e99909" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="4">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>customer_data.info()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2372,7 +2372,7 @@ memory usage: 1011.0+ KB</code></pre>
 </div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<div id="e7d4cc96" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="5">
+<div id="4d7de50d" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="5">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>product_data.info()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2398,7 +2398,7 @@ memory usage: 28.0+ KB</code></pre>
 </div>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<div id="8cd6fdc7" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="6">
+<div id="f05f1c48" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="6">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>reseller_data.info()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2423,7 +2423,7 @@ memory usage: 44.0+ KB</code></pre>
 </div>
 </div>
 <div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
-<div id="471ce6ea" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="7">
+<div id="d22022ea" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="7">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>sales_order_data.info()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2444,7 +2444,7 @@ memory usage: 3.7+ MB</code></pre>
 </div>
 </div>
 <div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
-<div id="6aac774d" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="8">
+<div id="d1c9c180" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="8">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>sales_territory_data.info()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2465,7 +2465,7 @@ memory usage: 484.0+ bytes</code></pre>
 </div>
 </div>
 <div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
-<div id="3ff55fd6" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="9">
+<div id="b89ab47c" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="9">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>date_data.info()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2490,7 +2490,7 @@ memory usage: 80.0+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="17332194" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:169.6527862548828,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="10">
+<div id="cbfef1ea" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:169.6527862548828,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="10">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>date_data.rename(columns <span class="op">=</span> {<span class="st">&#39;DateKey&#39;</span>:<span class="st">&#39;OrderDateKey&#39;</span>},inplace <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2500,7 +2500,7 @@ memory usage: 80.0+ KB</code></pre>
 <section id="unión-de-dataframes-y-examinación-de-calidad-de-los-datos" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="unión-de-dataframes-y-examinación-de-calidad-de-los-datos"><span class="header-section-number">2</span> Unión de Dataframes y Examinación de calidad de los Datos</h2>
 <p>En vista de que el dataframe de ventas posee claves ajenas para conectar con cada una de los demás dataframes procedemos a combinarlos para ver en conjunto todos los datos de los que disponemos y examinarlos con más detalle, ya que anteriormente solo obtuvimos una vista inicial.</p>
-<div id="0f19f16e" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="11">
+<div id="736cacdf" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:0,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="11">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>sales_comb <span class="op">=</span> sales_data.merge(customer_data, how <span class="op">=</span> <span class="st">&#39;left&#39;</span>, on <span class="op">=</span> <span class="st">&#39;CustomerKey&#39;</span>)</span>
@@ -2570,7 +2570,7 @@ memory usage: 44.4+ MB</code></pre>
 </div>
 </div>
 <p>La variable con un mayor numero de elementos nulos con respecto a las demás es “Color”. Mientras con con “ShipDateKey” podemos inferir que las ordenes no han sido enviadas, en el caso de color, nos interesa ver un poco más en detalle los productos relacionados</p>
-<div id="7b6acfc7" class="cell" data-execution_count="12">
+<div id="b01631d8" class="cell" data-execution_count="12">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>sales_comb[[<span class="st">&#39;Product&#39;</span>,<span class="st">&#39;Category&#39;</span>]][sales_comb[<span class="st">&#39;Color&#39;</span>].isnull()].value_counts()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2630,13 +2630,13 @@ Name: count, dtype: int64</code></pre>
 </ul>
 <p>Limitaciones: - Al no tener todas las fechas de entrega disponibles, no podemos obtener un cálculo de tiempos de entrega que comprenda todo el dataframe. - El dataset solo parece proporcionar costo de producto por lo que los cálculos relacionados al margen que de ganancia estarán limitados en ese aspecto.</p>
 <p>Ya unificados los dataframes y observada la calidad y limitaciones de los mismos, entonces procedemos a deshacernos de aquellas variables que entendemos no tienen relevancia para nuestros objetivos, como por ejemplo las columnas con claves ajenas que actualmente ocupan espacio y podría ralentizar el procesamiento de algunos cálculos o visualizaciones al exportar a nuestra herramienta de BI y completaremos los datos nulos de la columna color basados en las previas observaciones.</p>
-<div id="42acb225" class="cell" data-execution_count="13">
+<div id="ba223cf3" class="cell" data-execution_count="13">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>sales_comb[<span class="st">&#39;Color&#39;</span>] <span class="op">=</span> sales_comb[<span class="st">&#39;Color&#39;</span>].fillna(<span class="st">&#39;N/A&#39;</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
-<div id="5eae9f20" class="cell" data-execution_count="14">
+<div id="3a4fe9ec" class="cell" data-execution_count="14">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#sales_comb_final = sales_comb.iloc[:,8:-1]</span></span>
@@ -2689,7 +2689,7 @@ memory usage: 29.6+ MB</code></pre>
 <section id="estadísticas-descriptivas" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="estadísticas-descriptivas"><span class="header-section-number">3</span> Estadísticas Descriptivas</h2>
 <p>Procedemos a tomar las estadísticas descriptivas correspondientes para describir el dataframe a utilizar tomando en cuenta que para trabajar con los clientes pensamos segmentar utilizando RFM (recency/recencia, frecuency/frecuencia y monetary value/valor monetario) en el cual toman una mayor importancia las variables “Sales Order” (para identificar ordenes únicas), “Sales Amount” y “Date”.</p>
-<div id="87aa6e56" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:292.2569580078125,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="15">
+<div id="61721b88" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;panel-layout&quot;,&quot;value&quot;:{&quot;height&quot;:292.2569580078125,&quot;visible&quot;:true,&quot;width&quot;:100}}" data-execution_count="15">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>sales_comb_customers.describe()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2834,7 +2834,7 @@ memory usage: 29.6+ MB</code></pre>
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href>Sin Valores Atípicos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href>Con Valores Atípicos</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<div id="04356bf0" class="cell" data-execution_count="16">
+<div id="1f78e238" class="cell" data-execution_count="16">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">8</span>,<span class="dv">5</span>))</span>
@@ -2854,7 +2854,7 @@ memory usage: 29.6+ MB</code></pre>
 </div>
 </div>
 <div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<div id="0911b353" class="cell" data-execution_count="17">
+<div id="737b0865" class="cell" data-execution_count="17">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">8</span>,<span class="dv">5</span>))</span>
@@ -2879,7 +2879,7 @@ memory usage: 29.6+ MB</code></pre>
 <section id="histograma" class="level3" data-number="3.2">
 <h3 data-number="3.2" class="anchored" data-anchor-id="histograma"><span class="header-section-number">3.2</span> Histograma</h3>
 <p>Al notar que los valores atípicos para los canales de venta aparenta exceder los 5,000 USD, procederemos a limitar el rango de nuestro histograma a este valor con el objetivo de obtener una visual más clara.</p>
-<div id="2c60e291" class="cell" data-execution_count="18">
+<div id="b5518824" class="cell" data-execution_count="18">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">8</span>,<span class="dv">5</span>))</span>
@@ -2906,7 +2906,7 @@ memory usage: 29.6+ MB</code></pre>
 <section id="modificación-y-creación-de-variable" class="level2" data-number="4">
 <h2 data-number="4" class="anchored" data-anchor-id="modificación-y-creación-de-variable"><span class="header-section-number">4</span> Modificación y Creación de Variable</h2>
 <p>Ya revisados los datos procedemos con la creación de una nueva variable y renombraremos la columna de fechas para reflejar que se corresponden con la fecha de orden de compra. De manera inmediata visualizaremos la información del dataframe para confirmar que los cambios han surtido efecto.</p>
-<div id="63e632df" class="cell" data-execution_count="19">
+<div id="b6444864" class="cell" data-execution_count="19">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>sales_comb_customers.rename(columns <span class="op">=</span> {<span class="st">&#39;Date&#39;</span>:<span class="st">&#39;Order Date&#39;</span>}, inplace <span class="op">=</span> <span class="va">True</span>)</span>
@@ -2959,7 +2959,7 @@ dtypes: datetime64[ns](1), float64(9), int64(2), object(22)
 memory usage: 31.5+ MB</code></pre>
 </div>
 </div>
-<div id="e9cd66cc" class="cell" data-execution_count="20">
+<div id="b856e35e" class="cell" data-execution_count="20">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>sales_comb_customers.head()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -3204,7 +3204,7 @@ memory usage: 31.5+ MB</code></pre>
 <section id="segmención" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="segmención"><span class="header-section-number">5</span> Segmención</h2>
 <p>Crearemos un Dataframe centrado en la segmentación de clientes utilizando el marco de trabajo RFM (Recencia, frecuencia y valor monetario).</p>
-<div id="add5434e" class="cell" data-execution_count="21">
+<div id="7502fc67" class="cell" data-execution_count="21">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>snapshot_date <span class="op">=</span>  sales_comb_customers[<span class="st">&#39;Order Date&#39;</span>].<span class="bu">max</span>() <span class="op">+</span> dt.timedelta(days <span class="op">=</span> <span class="dv">1</span>)</span>
@@ -3284,7 +3284,7 @@ memory usage: 31.5+ MB</code></pre>
 <section id="prueba-de-inercia-y-silueta" class="level3" data-number="5.1">
 <h3 data-number="5.1" class="anchored" data-anchor-id="prueba-de-inercia-y-silueta"><span class="header-section-number">5.1</span> Prueba de Inercia y Silueta</h3>
 <p>Utilizando métricas dentro de la libreria <code>sklearn</code> procedemos a confirmar la selección ideal de la cantidad de clusters que necesitaremos y si se alinean con el marco RFM por el que optamos. Para ello necesitamos estandarizar los datos de recién creado dataframe rfm y definir funciones. La primera métrica por calcular será la de inercia.</p>
-<div id="0eec4cec" class="cell" data-execution_count="22">
+<div id="808997f4" class="cell" data-execution_count="22">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>rfm_scaled <span class="op">=</span> StandardScaler().fit_transform(rfm.iloc[:,<span class="dv">2</span>:])</span>
@@ -3301,25 +3301,25 @@ memory usage: 31.5+ MB</code></pre>
 <span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> inertia</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
-<div id="2873cfec" class="cell" data-execution_count="23">
+<div id="aaba88c4" class="cell" data-execution_count="23">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>inertia <span class="op">=</span> kmeans_inertia(num_clusters, rfm_scaled)</span>
 <span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>inertia</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="23">
-<pre><code>[37782.45059151246,
+<pre><code>[37782.45059151247,
  28151.903144645315,
  19076.850342141173,
  13390.85930806318,
  11244.581537166076,
  9395.945586720052,
  8231.12176834895,
- 7345.660813153022,
+ 7345.660813153021,
  6557.033770775004]</code></pre>
 </div>
 </div>
-<div id="792ee7ea" class="cell" data-execution_count="24">
+<div id="4a9645da" class="cell" data-execution_count="24">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>plot <span class="op">=</span> sns.lineplot(x<span class="op">=</span>num_clusters, y<span class="op">=</span>inertia, marker <span class="op">=</span> <span class="st">&#39;o&#39;</span>)</span>
@@ -3338,7 +3338,7 @@ memory usage: 31.5+ MB</code></pre>
 </div>
 <p><strong>Interpretación</strong></p>
 <p>Acá podemos visualizar como el “codo” en este grafico de línea nos muestra que la pendiente inicia a cambiar a partir del cuarto cluster, pero dicho cambio se hace aún más pronunciado luego del quinto. Con esto podríamos decir que ambas opciones en cuanto a cantidad de clusters estaría bien, sin embargo; Realizaremos otra prueba con el coeficiente de silueta definiendo otra funcion para confirmar.</p>
-<div id="b3ba2ca5" class="cell" data-execution_count="25">
+<div id="88728925" class="cell" data-execution_count="25">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> kmeans_sil(num_clusters, x_vals):</span>
@@ -3366,7 +3366,7 @@ memory usage: 31.5+ MB</code></pre>
  0.4352608581124152]</code></pre>
 </div>
 </div>
-<div id="fffa737c" class="cell" data-execution_count="26">
+<div id="60655236" class="cell" data-execution_count="26">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>plot <span class="op">=</span> sns.lineplot(x<span class="op">=</span>num_clusters, y<span class="op">=</span>sil_score, marker <span class="op">=</span> <span class="st">&#39;o&#39;</span>)</span>
@@ -3391,7 +3391,7 @@ memory usage: 31.5+ MB</code></pre>
 <h3 data-number="5.2" class="anchored" data-anchor-id="aplicación-del-modelo-de-custering"><span class="header-section-number">5.2</span> Aplicación del Modelo de Custering</h3>
 <p>Aplicamos un modelo de Kmeans para que en base a las variables rfm que creamos, cada cliente sea asignado a uno de 4 segmentos. Para evitar errores y que el modelo atribuya peso a variables con escala superior, procedimos con la estandarizacion de de las variables utilizando <code>StandardScaler()</code> y <code>fit_transform()</code>, mientras que mantenemos un resultado replicable al proporcionar una semilla o “random state” de 42.</p>
 <p>El resultado de la asignacion de cluster es entonces agregado al dataframe “rfm” y esto a su ves nos permitirar adjuntar la variable “Cluster” a nuestro dataframe final anterior “sales_comb_customers” usando la funcion <code>merge()</code></p>
-<div id="ff60ffd8" class="cell" data-execution_count="27">
+<div id="c32502a9" class="cell" data-execution_count="27">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>kmeans <span class="op">=</span> KMeans(n_clusters <span class="op">=</span> <span class="dv">4</span>, random_state <span class="op">=</span> <span class="dv">42</span>, n_init <span class="op">=</span> <span class="dv">10</span>)</span>
@@ -3468,7 +3468,7 @@ memory usage: 31.5+ MB</code></pre>
 </div>
 </div>
 <p>Agrupamos los datos por cluster utilizando el promedio de las variables RFM para poder preliminarmente observarlos en formato de tabla:</p>
-<div id="b903ffba" class="cell" data-execution_count="28">
+<div id="2738d778" class="cell" data-execution_count="28">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>summarized_rfm<span class="op">=</span> rfm.groupby(<span class="st">&#39;Cluster&#39;</span>,as_index <span class="op">=</span> <span class="va">False</span>).agg({<span class="st">&#39;Recency&#39;</span>:<span class="st">&#39;mean&#39;</span>, <span class="st">&#39;Frequency&#39;</span>:<span class="st">&#39;mean&#39;</span> , </span>
@@ -3541,7 +3541,7 @@ memory usage: 31.5+ MB</code></pre>
 <li>3: Clientes de Alto Valor (Este cluster presenta el mayor nivel de gasto/valor de compra).</li>
 </ul>
 <p>Ahora procedemos con completar nuestro dataframe con los cluster creados y a exportarlos para su posterior uso. Exportaremos “rfm” y “sales_comb_clustered”.</p>
-<div id="75d4a27b" class="cell" data-execution_count="29">
+<div id="8a770e04" class="cell" data-execution_count="29">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>segments <span class="op">=</span> {<span class="dv">0</span>:<span class="st">&#39;Clientes perdidos&#39;</span>, <span class="dv">1</span>:<span class="st">&#39;Clientes estándar&#39;</span>, <span class="dv">2</span>:<span class="st">&#39;Clientes Muy Activos&#39;</span>, <span class="dv">3</span>:<span class="st">&#39;Clientes de Alto Valor&#39;</span>}</span>
@@ -3608,7 +3608,7 @@ memory usage: 31.5+ MB</code></pre>
 </div>
 </div>
 </div>
-<div id="3fc8418b" class="cell" data-execution_count="30">
+<div id="48e5f131" class="cell" data-execution_count="30">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>sales_comb_clustered <span class="op">=</span> sales_comb_customers.merge(rfm[[<span class="st">&#39;Customer ID&#39;</span>, <span class="st">&#39;Cluster&#39;</span>]], how <span class="op">=</span> <span class="st">&#39;left&#39;</span>, on <span class="op">=</span> <span class="st">&#39;Customer ID&#39;</span>)</span>
@@ -3620,7 +3620,7 @@ memory usage: 31.5+ MB</code></pre>
 <section id="visualización-de-segmentos" class="level3" data-number="5.3">
 <h3 data-number="5.3" class="anchored" data-anchor-id="visualización-de-segmentos"><span class="header-section-number">5.3</span> Visualización de segmentos</h3>
 <p>Procedemos a visualizar los diferentes segmentos utilizando un gráfico de dispersión.</p>
-<div id="24ed0bcc" class="cell" data-execution_count="31">
+<div id="53fa9de5" class="cell" data-execution_count="31">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">8</span>,<span class="dv">5</span>))</span>
@@ -3640,7 +3640,7 @@ memory usage: 31.5+ MB</code></pre>
 </div>
 </div>
 </div>
-<div id="4d3c43a8" class="cell" data-execution_count="32">
+<div id="4766bb01" class="cell" data-execution_count="32">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">8</span>,<span class="dv">5</span>))</span>
@@ -4140,7 +4140,7 @@ memory usage: 31.5+ MB</code></pre>
 <span id="cb46-18"><a href="#cb46-18" aria-hidden="true" tabindex="-1"></a><span class="co">    smooth-scroll: true </span></span>
 <span id="cb46-19"><a href="#cb46-19" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb46-20"><a href="#cb46-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb46-21"><a href="#cb46-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Importación de Librerias Revisión independediente de cada dataframe por separado</span></span>
+<span id="cb46-21"><a href="#cb46-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Importación de Librerias Revisión independiente de cada dataframe por separado</span></span>
 <span id="cb46-22"><a href="#cb46-22" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb46-23"><a href="#cb46-23" aria-hidden="true" tabindex="-1"></a>Importación de librerías, de datos y conversion a dataframes para interaccion en Python:</span>
 <span id="cb46-24"><a href="#cb46-24" aria-hidden="true" tabindex="-1"></a></span>
